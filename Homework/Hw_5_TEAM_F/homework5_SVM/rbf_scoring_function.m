@@ -1,0 +1,3 @@
+function score = rbf_scoring_function(x,SVs,sv_coef,b,gamma)
+
+%score = ...

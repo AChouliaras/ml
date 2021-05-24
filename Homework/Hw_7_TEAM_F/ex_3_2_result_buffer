@@ -1,0 +1,36 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 3 -T 0 -C 0.95 -D 0.05 -U 1.0 -M 0.2 -S -1.0 -c -1
+Relation:     cpu-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R2-6-precision6-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.
+																													unsupervised.attribute.Remove-R6
+Instances:    209
+Attributes:   5
+              MMIN
+              MMAX
+              CACH
+              CHMIN
+              CHMAX
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.9 (188 instances)
+Minimum metric <confidence>: 0.95
+Number of cycles performed: 2
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 4
+
+Size of set of large itemsets L(2): 6
+
+Size of set of large itemsets L(3): 3
+
+Best rules found:
+
+1. CACH='(-inf-85.333333]' 194 ==> CHMIN='(-inf-17.333333]' 193    <conf:(0.99)> lift:(1.02) lev:(0.02) [3] conv:(2.32)
+2. MMIN='(-inf-10709.333333]' CACH='(-inf-85.333333]' 189 ==> CHMIN='(-inf-17.333333]' 188    <conf:(0.99)> lift:(1.02) lev:(0.02) [3] conv:(2.26)
+3. CACH='(-inf-85.333333]' CHMAX='(-inf-58.666667]' 189 ==> CHMIN='(-inf-17.333333]' 188    <conf:(0.99)> lift:(1.02) lev:(0.02) [3] conv:(2.26)
+
